@@ -5,7 +5,7 @@ y=[2,4,6,8,10]
 
 plt.plot(x,y,label="Linea",color="blue")
 
-plt.title("Mi primer grafico")
+plt.title("Grafico comparacion de metodos")
 plt.xlabel("Eje de la x")
 plt.ylabel("Eje de la y")
 
