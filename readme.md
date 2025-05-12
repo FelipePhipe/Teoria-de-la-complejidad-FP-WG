@@ -34,16 +34,12 @@ Para ordenar cada arreglo.Ademas genera un grafico que muestra cual metodo de or
 
 Para ejecutar el proyecto:
 
-1. Compila el código:
-    ```bash
-    javac App.java
-    ```
-2. Ejecuta la aplicación:
-    ```bash
-    java App
-    ```
+1. Instala las dependencias (si es necesario):
+   ```bash
+   pip install -r requirements.txt
 
----
+2. Ejecuta el programa principal:
+    python app.py
 
 ## 🧑‍💻 Ejemplo de Salida
 
@@ -85,3 +81,4 @@ Tamaño: 500, Algoritmo: shell, Tiempo: 0.0001 segundos
 En esta práctica se evaluó el rendimiento de varios algoritmos de ordenamiento utilizando notación Big O para analizar su complejidad temporal. Los métodos Bubble Sort, Selección e Inserción presentaron un crecimiento cuadrático `O(n²)`, mostrando ineficiencia al aumentar el tamaño del arreglo. Aunque el algoritmo de Inserción puede alcanzar `O(n)` en su mejor caso, en entradas aleatorias su comportamiento sigue siendo `O(n²)`. En contraste, Shell Sort (o `sorted()` de Python) demostró una complejidad más eficiente `O(n log n)`, evidenciada por su bajo tiempo de ejecución incluso con arreglos grandes. Además, se garantizó que todos los algoritmos trabajaran sobre copias del mismo arreglo desordenado, evitando sesgos por arreglos previamente ordenados.
 
 ## Conclusion Wellington Guzman:
+De esta actividad se logró concluir atreves de distintos métodos que el el más eficiente para ordenar grandes cantidades de números aleatorios es Shell sort, con una ejecución más rápida que destaca por sobre los demás métodos empleados. En cuanto a los métodos menos eficientes podemos encontrar a Buble sort, Seleccion e Inserccion mientras más aumenta el tamaño del arreglo. Para realizar las comprobaciones utilizamos arreglos de gran tamaño con números aleatorios, nos aseguramos de que el arreglo siempre este en desorden para que los métodos no tomen los números en orden y de esta manera comprobar su eficiencia.
